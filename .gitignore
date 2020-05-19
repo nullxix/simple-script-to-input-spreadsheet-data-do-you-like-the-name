@@ -1,0 +1,7 @@
+env.py
+google_token.pickle
+token.pickle
+sheets.py
+*.pickle
+google-api-credentials.json
+*credentials.json

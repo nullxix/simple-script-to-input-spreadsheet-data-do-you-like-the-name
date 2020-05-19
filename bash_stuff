@@ -1,0 +1,17 @@
+
+// change /path/to/install/dir
+// to the path where you cloned this thing
+// then put it in ~/.bash_profile or ~/.zsh
+// then reload your terminal
+// if you want to type "s" instead of "standup" or something
+// you can change "standup" (in both places) to whatever you want
+
+// DO NOT CHANGE ANYTHING ELSE IN .bash_profile or .zsh THEY SUPER IMPORTANT FILES
+
+
+function sheet(){
+  pushd /path/to/install/dir
+  python3 cli.py "$@"
+  popd
+}
+export -f sheet
