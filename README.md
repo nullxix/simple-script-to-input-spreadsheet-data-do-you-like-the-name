@@ -16,7 +16,7 @@ export -f sheet
 ```
 
 in either ~/.bash_profile or ~/.zshenv  
-**(change /path/to/install/dir to match where you cloned this too)**
+**(change /path/to/install/dir to match the directory you cloned this into)**
 
 ### run this command:
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
