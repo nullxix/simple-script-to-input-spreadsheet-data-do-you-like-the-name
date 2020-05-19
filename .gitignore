@@ -5,3 +5,4 @@ sheets.py
 *.pickle
 google-api-credentials.json
 *credentials.json
+config.py
